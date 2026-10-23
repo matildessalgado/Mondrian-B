@@ -1,3 +1,7 @@
-# Título
+**Mondrian**
+**Parte B**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod convallis magna ut pulvinar. Nulla iaculis, metus in semper vestibulum, lorem quam fringilla tellus, eu varius leo dui ac neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed faucibus ultrices ante, ut suscipit est euismod ut. Duis sit amet dictum turpis. Fusce non turpis porta nisi iaculis eleifend. Donec eget lobortis risus. Proin molestie tincidunt elit. Donec a enim ac neque tristique molestie. Sed nibh massa, dignissim at ipsum non, volutpat aliquam erat. Sed tincidunt quis urna a semper. Phasellus leo orci, imperdiet et ullamcorper non, finibus eu nunc. Duis vel ligula ac orci tincidunt aliquam. Suspendisse potenti. Sed congue lectus at aliquet cursus. 
+O elemento generativo escolhido foi a linha vertical central, por ser um dos principais eixos estruturais da composição.
+A linha apresenta uma oscilação horizontal contínua, criada através da função noise(). O desvio aumenta gradualmente ao longo da altura do canvas, variando aproximadamente entre 1 píxel no topo e 9 píxeis na base.
+A função random() introduz pequenos estremecimentos ocasionais, que diminuem progressivamente. Este efeito acrescenta momentos de instabilidade sem alterar permanentemente a posição da linha. A função noiseSeed(3) define uma base de ruído consistente através do efeito de grão.
+Os restantes elementos da composição permanecem estáticos.  Quis criar uma tensão entre a ordem geométrica característica da obra de Mondrian e destabilizar através de movimento de uma só linha.
